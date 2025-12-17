@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background: url("../img/gameBackground.jpg") no-repeat center;
+    background-size: cover;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+#startGameBtn {
+    display: block;
+    width: 1085px;
+}
+
+.super-wrapper {
+    text-align: center;
+    vertical-align: middle;
+    height: 100%!important;
+}
+
+.canvas-wrapper {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    min-width: 1084px;
+}
+
+.players-wrapper {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+#players {
+    width: 50px;
+    height: 32px;
+}
+
+#leftBottomCanvas {
+    margin-top: 513px;
+}
+#rightBottomCanvas {
+    margin-top: 513px;
+}
+
+.left {
+    display: block;
+    float: left;
+    width: 150px;
+}
+
+.right {
+    display: block;
+    float: right;
+    width: 150px;
+}
+
+.startBtn-wrapper {
+    text-align: center;
+}
+
